@@ -7,42 +7,6 @@
     --tertiary-color: #112B3C;
     --quartiary-color: #F66B0E;
 }
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    color: var(--primary-color);
-    line-height: 1.6;
-}
-
-ul {
-  list-style-type: none;  
-}
-
-a {
-    text-decoration: none;
-    color: #6F4849;
-}
-
-h1, h2 {
-    font-weight: 300;
-    line-height: 1.2;
-    margin: 10px 0;
-}
-
-p {
-    margin: 10px 0;
-}
-
-img {
-    width: 100%;
-}
-
 /*Nav bar*/
 .navbar { 
     background-color: var(--primary-color);
@@ -68,6 +32,8 @@ img {
 .navbar .flex{
     justify-content: space-between;
 }
+
+
 /* Showcase */
 
 .showcase {
@@ -165,6 +131,16 @@ img {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+.expirence{
+    margin-top: 100px;
+}
+
+.image-container
+{
+    width: 130px;
+    max-width: 130px;
+    margin: 0 20px;
+}
 
 
 
