@@ -1,0 +1,25 @@
+.expirience {
+ margin-top: 90px;
+}
+.expirience .container{
+ max-width: 700px;
+}
+.expirience .container{
+ border: 3px  var(--primary-color) dotted;
+}
+
+.image-container{
+ width: 350px;
+ height: 160px;
+}
+
+.image-container img{
+ object-fit:fill;
+ width: 100%;
+ height: 100%;
+}
+
+.expirence{
+
+ height: 300px;
+}
