@@ -39,7 +39,8 @@ p {
 img {
     width: 100%;
 }
-.tecnologies{
+
+.technologies{
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -97,11 +98,11 @@ img {
     height: 200px;
 }
 
-.btn-tecnologies{
+.btn-technologies{
     color: var(--secundary-color);
 }
 
-.btn-tecnologies:hover{
+.btn-technologies:hover{
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
