@@ -43,76 +43,66 @@ img {
     width: 100%;
     margin: 0 auto;
     height: auto;
+    min-height: 700px;
     margin-top: 150px;
     background-color: var(--tertiary-color);
 }
-
-.tecnologies img{
-    width: 100%;
-    height: 100%;
-}
-
-.language{
-    direction: row;
-}
-
-.each-lenguage{
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    flex: column;
-    align-items: center;
-    background-color: whitesmoke;
-    
-}
-
-.each-lenguage img{
-    margin-top: 10px;
-    max-width: 150px;
-    max-height: 150px;
-}
-
-.lenguage-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.framework{
-    display: flex;
-    flex-direction: row;
-    margin: 0 20px;
-    justify-content:center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.framework img{
-    width: 100%;
-    height: 100%;
-}
-
-.each-framewoks{
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 10px;
-    width: 100px;
-    flex: column;
-    align-items: center;
-    background-color: whitesmoke;
-}
-
 
 .title-section{
     color: var(--secundary-color);
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
+}
+.lenguage{
+    width: auto;
+    height: auto;
+}
+
+.each-lenguage{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.lenguage .grid{
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.framework{
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.framework .flex-r{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.lenguage-content{
+    height: 300px;
+    width: 300px;
+}
+
+.each-framework div:nth-child(1){
+    margin-top: 10px;
+} 
+
+.each-framework div:nth-child(2){
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+}
+
+.btn-tecnologies{
+    color: var(--secundary-color);
+}
+
+.btn-tecnologies:hover{
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
 }
