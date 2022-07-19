@@ -20,6 +20,12 @@
 }
 
 .expirence{
-
  height: 300px;
+}
+
+.image-container
+{
+ width: 130px;
+ max-width: 130px;
+ margin: 0 20px;
 }
