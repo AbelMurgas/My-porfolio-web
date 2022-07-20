@@ -48,7 +48,29 @@
 .reduce-menu div{
  margin: 10px 0px;
 }
+
 .reduce-menu a{
  color: var(--secundary-color);
- 
+}
+
+.btn-contact{
+ font-size: 10px;
+}
+
+.reduce-menu a:hover{
+ border-bottom: 2px var(--secundary-color) solid;
+}
+
+@media  screen and (max-width: 770px){
+ .footer{
+  height: auto;
+  text-align: center;
+ }
+
+ .container.grid-3{
+  grid-template-columns: 1fr;
+ }
+
+
+
 }
