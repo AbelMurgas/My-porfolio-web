@@ -38,6 +38,10 @@
  margin: 30px 0
 }
 
+.showcase-form .card{
+ height: 500px;
+}
+
 .showcase-form .card h2{
  font-weight: 400;
 }
@@ -95,3 +99,25 @@
  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+@media  screen and (max-width: 1150px) {
+ .showcase{
+  height: auto;
+  text-align: center;
+ }
+
+ .showcase .grid{
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+ }
+
+ .showcase-form {
+  justify-self: center;
+  margin: auto;
+ }
+}
+
+@media  screen and (max-width: 450px) {
+ 
+
+ 
+}
