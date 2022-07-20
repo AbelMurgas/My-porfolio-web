@@ -20,6 +20,10 @@
  grid-template-columns: 55% 42%;
 }
 
+.showcase-text{
+ animation: slideInFromLeft 1s ease-in;
+}
+
 .showcase-form {
  position: relative;
  top: 60px;
@@ -32,6 +36,7 @@
  font-style: oblique;
  background-color: var(--secundary-color);
  font-weight: 400;
+ animation: slideInFromRigth 1s ease-in;
 }
 
 .showcase-form .form-control{
@@ -114,10 +119,4 @@
   justify-self: center;
   margin: auto;
  }
-}
-
-@media  screen and (max-width: 450px) {
- 
-
- 
 }

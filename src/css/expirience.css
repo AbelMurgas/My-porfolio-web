@@ -1,5 +1,6 @@
 .expirience {
  margin-top: 90px;
+ animation: slideInFromBottom 1s ease-in;
 }
 .expirience .container{
  max-width: 700px;
