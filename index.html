@@ -11,12 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/utilities.css" />
-    <link rel="stylesheet" href="../css/index-style/navbar.css" />
-    <link rel="stylesheet" href="../css/index-style/technologies.css" />
-    <link rel="stylesheet" href="../css/index-style/expirience.css" />
-    <link rel="stylesheet" href="../css/index-style/footer.css" />
-    <link rel="stylesheet" href="../css/index-style/showcase.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+    <link rel="stylesheet" href="./src/css/index-style/navbar.css" />
+    <link rel="stylesheet" href="./src/css/index-style/technologies.css" />
+    <link rel="stylesheet" href="./src/css/index-style/expirience.css" />
+    <link rel="stylesheet" href="./src/css/index-style/footer.css" />
+    <link rel="stylesheet" href="./src/css/index-style/showcase.css" />
     <title>Home</title>
   </head>
 
@@ -28,10 +28,8 @@
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="favoriteTecnology.html">Expirience</a></li>
-            <li><a href="myProyects.htlm">Projects</a></li>
-            <li><a href="favoriteTecnology.html">Technologies</a></li>
-            <li><a href="conctactMe.html">Contact</a></li>
+            <li><a href="#expirience">Expirience</a></li>
+            <li><a href="#technologies">Technologies</a></li>
           </ul>
         </nav>
       </div>
@@ -57,7 +55,7 @@
               </p>
             </div>
             <div>
-              <a href="myProyects.htlm" class="btn btn-outline btn-contact"
+              <a href="#" class="btn btn-outline btn-contact"
                 >See my Projects</a
               >
             </div>
@@ -80,12 +78,15 @@
         </div>
       </div>
     </section>
+    <hr id="expirience">
+    <hr>
+    <hr>
     <!-- Expirience -->
-    <section class="expirience">
+    <section  class="expirience">
       <div class="container flex-r flex-join-separate">
         <div class="expirience-title text-center">
           <div class="image-container">
-            <a href=""><img src="../assets/MibusLogo.png" alt="" /></a>
+            <a href=""><img src="./src/assets/MibusLogo.png" alt="" /></a>
           </div>
           <div class="position">
             <h3>Programmer</h3>
@@ -103,7 +104,7 @@
       </div>
     </section>
     <!--Tecnologies-->
-    <section class="technologies">
+    <section id="technologies" class="technologies">
       <div class="title-section container">
         <h2>Favorite Technologies I Use</h2>
       </div>
@@ -114,7 +115,7 @@
               <h3>Python</h3>
             </div>
             <div class="">
-              <img src="../assets/python-logo.png" alt="" />
+              <img src="./src/assets/python-logo.png" alt="" />
             </div>
           </div>
           <div class="framework flex-r flex-wrap">
@@ -123,7 +124,7 @@
                 <h3>Django</h3>
               </div>
               <div class="">
-                <img src="../assets/django-logo.png" alt="" />
+                <img src="./src/assets/django-logo.png" alt="" />
               </div>
             </div>
             <div class="each-framework card card-little flex-c">
@@ -131,7 +132,7 @@
                 <h3>Flask</h3>
               </div>
               <div class="">
-                <img src="../assets/flask-logo.png" alt="" />
+                <img src="./src/assets/flask-logo.png" alt="" />
               </div>
             </div>
             <div class="each-framework card card-little flex-c">
@@ -139,7 +140,7 @@
                 <h3>TensorFlow</h3>
               </div>
               <div class="">
-                <img src="../assets/Tensorflow-logo.png" alt="" />
+                <img src="./src/assets/Tensorflow-logo.png" alt="" />
               </div>
             </div>
           </div>
@@ -150,7 +151,7 @@
               <h3>Java</h3>
             </div>
             <div class="">
-              <img src="../assets/java-logo.png" alt="" />
+              <img src="./src/assets/java-logo.png" alt="" />
             </div>
           </div>
           <div class="framework flex-r flex-wrap flex-top">
@@ -159,7 +160,7 @@
                 <h3>Spring</h3>
               </div>
               <div class="">
-                <img src="../assets/Sprint-logo.png" alt="" />
+                <img src="./src/assets/Sprint-logo.png" alt="" />
               </div>
             </div>
           </div>
@@ -170,7 +171,7 @@
               <h3>JavaScript</h3>
             </div>
             <div class="">
-              <img class="" src="../assets/js-logo.png" />
+              <img class="" src="./src/assets/js-logo.png" />
             </div>
           </div>
           <div class="framework flex-r flex-wrap">
@@ -179,7 +180,7 @@
                 <h3>React</h3>
               </div>
               <div class="">
-                <img src="../assets/react-logo.png" alt="" />
+                <img src="./src/assets/react-logo.png" alt="" />
               </div>
             </div>
             <div class="each-framework card card-little flex-c">
@@ -187,7 +188,7 @@
                 <h3>Node js</h3>
               </div>
               <div class="">
-                <img src="../assets/node-logo.png" alt="" />
+                <img src="./src/assets/node-logo.png" alt="" />
               </div>
             </div>
             <div class="each-framework card card-little flex-c">
@@ -195,14 +196,14 @@
                 <h3>Angular</h3>
               </div>
               <div class="">
-                <img src="../assets/angular-logo.png" alt="" />
+                <img src="./src/assets/angular-logo.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="btn-technologies-container container text-center">
-        <a href="myProyects.htlm" class="btn btn-outline btn-technologies"
+        <a href="#" class="btn btn-outline btn-technologies"
           >Other Technologies</a
         >
       </div>
@@ -235,8 +236,8 @@
             <a href="">Technologies</a>
           </div>
         </div>
-        <div class="contact-information flex-c">
-          <div class="general-information flex-c">
+        <div class="flex-c">
+          <div class="general-information flex-c self-end">
             <div>
               <i class="fa-solid fa-phone"></i> <span> + 507 6899-3354</span>
             </div>
